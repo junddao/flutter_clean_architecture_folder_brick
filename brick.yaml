@@ -11,7 +11,7 @@ version: 1.0.0+5
 environment:
   mason: ">=0.1.0-dev <0.1.0"
 
-repository: https://github.com/MaximilianFlechtner/clean_architecture_folders
+repository: https://github.com/junddao/flutter_clean_architecture_folder_brick.git
 
 vars:
   name:
