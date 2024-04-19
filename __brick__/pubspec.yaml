@@ -1,4 +1,4 @@
-name: {{ name }}
+name: { { name } }
 description: "A new Flutter project."
 
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
@@ -13,6 +13,10 @@ dependencies:
   flutter_flavorizr:
   cupertino_icons: ^1.0.6
   go_router:
+  dio:
+  pretty_dio_logger:
+  retrofit:
+  logger:
 
 dev_dependencies:
   go_router_builder:
