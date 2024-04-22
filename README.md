@@ -1,4 +1,4 @@
-# clean_architecture_folders
+# clean_architecture_folders_miro
 
 A brick to create Clean Architecture Folders.
 
@@ -26,12 +26,12 @@ Generated folder architecture
  ┃ ┣ 📂error
  ┃ ┃ ┣ 📜exceptions.dart
  ┃ ┃ ┗ 📜failure.dart
- ┃ ┣ 📂params
+ ┃ ┣ 📂model
+ ┃ ┣ 📂presentation
+ ┃ ┣ 📂provider
  ┃ ┣ 📂resources
- ┃ ┣ 📂theme
  ┃ ┣ 📂routes
- ┃ ┣ 📂usecase
- ┃ ┃ ┗ 📜usecase.dart
+ ┃ ┣ 📂themes
  ┃ ┣ 📜app_core.dart
  ┃ ┗ 📜app_strings.dart
  ┣ 📂data
@@ -48,6 +48,13 @@ Generated folder architecture
  ┃ ┣ 📂blocs
  ┃ ┣ 📂pages
  ┃ ┗ 📂widgets
+ ┣ 📜app.dart
+ ┣ 📜flavors.dart
+ ┣ 📜index.dart
+ ┣ 📜main_dev.dart
+ ┣ 📜main_prod.dart
+ ┣ 📜main.dart
+
 ```
 
 [1]: https://github.com/junddao/clean_architecture_base.git

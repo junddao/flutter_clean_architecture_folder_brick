@@ -1,10 +1,10 @@
-name: flutter_clean_architecture_folders
+name: flutter_clean_architecture_miro
 description: A brick to create Clean Architecture Folders.
 
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
 # followed by an optional build number (separated by a +).
-version: 1.0.0+5
+version: 1.0.0+1
 
 # The following defines the environment for the current brick.
 # It includes the version of mason that the brick requires.
@@ -17,5 +17,5 @@ vars:
   name:
     type: string
     description: App Title
-    default: Dash
+    default: Miro
     prompt: What is your App Title?
