@@ -1,3 +1,4 @@
+import 'package:dongnesosik/core/themes/theme.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'flavors.dart';
@@ -9,11 +10,13 @@ class App extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final router = ref.watch(routerProvider);
+
     return MaterialApp.router(
       routerConfig: router,
       title: F.title,
       debugShowCheckedModeBanner: false,
-      theme: lightThemeData(context),
+      theme: lightThemeData(lightColorScheme, context),
+      darkTheme: darkThemeData(darkColorScheme, context),
       // darkTheme: const MaterialTheme(TextTheme()).dark(),
       localizationsDelegates: const [
         //다국어 지원

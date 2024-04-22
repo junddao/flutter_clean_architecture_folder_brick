@@ -1,4 +1,4 @@
-name: { { name } }
+name: {{ name }}
 description: "A new Flutter project."
 
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
@@ -17,9 +17,28 @@ dependencies:
   pretty_dio_logger:
   retrofit:
   logger:
+  stack_trace:
+  connectivity_plus:
+  version: ^3.0.2
+  freezed_annotation:
+  package_info_plus: ^7.0.0
+  device_info_plus: ^10.1.0
+  firebase_analytics: ^10.10.2
+  firebase_core: ^2.30.0
+  firebase_messaging: ^14.8.2
+  webview_flutter:
+  intl: ^0.18.1
 
 dev_dependencies:
+  build_runner:
+  custom_lint:
   go_router_builder:
+  freezed:
+  json_serializable:
+  retrofit_generator:
+  riverpod_lint:
+  flutter_localizations:
+    sdk: flutter
   flutter_test:
     sdk: flutter
 
