@@ -1,0 +1,30 @@
+flavors:
+  dev:
+    app:
+      name: "(dev)"
+
+    android:
+      applicationId: "com.junddao.nigagara.dev"
+      generateDummyAssets: false
+      firebase:
+        config: ".firebase/dev/google-services.json"
+    ios:
+      bundleId: "com.junddao.nigagara.dev"
+      generateDummyAssets: false
+      firebase:
+        config: ".firebase/dev/GoogleService-Info.plist"
+
+  prod:
+    app:
+      name: "(prod)"
+
+    android:
+      applicationId: "com.junddao.nigagara"
+      generateDummyAssets: false
+      firebase:
+        config: ".firebase/prod/google-services.json"
+    ios:
+      bundleId: "com.junddao.nigagara"
+      generateDummyAssets: false
+      firebase:
+        config: ".firebase/prod/GoogleService-Info.plist"
