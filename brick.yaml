@@ -9,7 +9,7 @@ version: 1.0.0+2
 # The following defines the environment for the current brick.
 # It includes the version of mason that the brick requires.
 environment:
-  mason: ">=0.1.0-dev <0.1.0"
+  mason: ">=0.1.1"
 
 repository: https://github.com/junddao/flutter_clean_architecture_folder_brick.git
 
